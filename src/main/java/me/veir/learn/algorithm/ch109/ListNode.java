@@ -13,7 +13,10 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @Data
 public class ListNode {
-    int val;
-    ListNode next;
+    private int val;
+    private ListNode next;
 
+    public ListNode(int val) {
+        this.val = val;
+    }
 }
