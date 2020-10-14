@@ -58,7 +58,7 @@ public class Solution {
     }
 
     /**
-     *
+     * 递归构建平衡二叉搜索树
      * @param head
      * @param right
      * @return
@@ -75,6 +75,7 @@ public class Solution {
     }
 
     /**
+     * 获取中位数
      * @param left 链表开始节点
      * @param right 链表结束节点, 可以为null
      * @return 链表中位数节点
